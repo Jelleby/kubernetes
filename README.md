@@ -64,6 +64,16 @@ kubectl get pods -l app=kubernetes-bootcamp (filter with label)
 - Use bullet points (`-` or `*`) for lists.
 - Use code blocks with triple backticks (```) for code or command examples.
 - Use **bold** or *italic* for emphasis.
+- Use `> blockquotes` for notes or tips.
+- Use single backticks for `inline code`.
+- Use `- [ ]` and `- [x]` for task lists (checkboxes).
+- Create tables with pipes:
+  | Command | Description |
+  |---------|-------------|
+  | `kubectl get pods` | List pods |
+- Add links: `[text](url)`
+- Add images: `![alt text](image_url)`
+- Use `---` or `***` for horizontal lines.
 - Add sections like:
   - Project Description
   - Installation
